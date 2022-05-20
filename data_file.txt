@@ -1,0 +1,67 @@
+Licorería y más…
+
+Suponga que usted tiene un bar y desea mejorar el surtido de licores. Para eso va a la licorería más cercana con la lista de licores que quiere comprar. La vendedora, quien está aprendiendo a programar en Python, creó un programa que le pide inicialmente los productos con su precio respectivo, en dólares. Luego, el programa pide la lista de los licores que el cliente desea comprar y al final el programa muestra el total a pagar y los licores comprados, según la disponibilidad. Los licores que se manejan son los siguiente:
+
+1) Cerveza
+
+2) Vino
+
+3) Whisky
+
+4) Ron
+
+5) Tequila
+
+6) Aguardiente
+
+7) Vodka
+
+8) Brandi
+
+9) Sangria
+
+ 
+
+¿Cómo podría ser el programa que la vendedora hizo?
+
+Entradas
+
+La primera entrada debe ser una cadena de caracteres, que tenga estructura de diccionario donde la llave sea el nombre del producto y el valor sea el precio. La segunda entrada debe ser los nombres de los productos que el cliente quiere separados por un espacio.
+
+Salidas
+
+La primera salida es el total en dólares de los productos comprados, asumiendo que solo compró uno de cada uno. La segunda salida es la lista de productos que se pudieron comprar finalmente separados por espacios.
+
+
+
+Ejemplos
+
+Entradas:
+
+{"Sangria": 24, "Brandi": 23, "Cerveza": 26, "Ron": 23}
+
+Tequila Brandi Ron
+
+salida :
+
+46
+
+Brandi Ron
+
+
+Entrada:
+
+{"Whisky": 20, "Aguardiente": 30, "Cerveza": 27, "Vodka": 16}
+
+Aguardiente Tequila Cerveza
+
+Salida: 
+
+57
+
+Aguardiente Cerveza
+
+
+
+
+ Consejo: use un método del módulo json para convertir la primera entrada en diccionario.
